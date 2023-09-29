@@ -1,145 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Jewel's Fitness</title>
-</head>
-<link rel="stylesheet" href="css/style.css">
-<style>
-      body{
-             color: white;
-             margin: 0px;
-             padding: 0px;
-             background: url('gym/barbell-1839086_1920.jpg');
-             font-family: 'Times New Roman', Times, serif;
-      }
-      .left{
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            display: inline-block;
-          
-            margin: 30px;
-            padding: 10px;
-      }
-      .left img{
-            width: 199px; 
-      }
-      .left div{
-            text-align: center;
-      }
-      .middle{   
-            display: block;
-            width: 764px;
-            margin: 20px auto;
-           
-            padding: 4px 6px;
-      }
-      .right{
-            position: absolute;
-            right: 0px;
-            top: 0px;
-            display: inline-block;
-           
-            margin: 30px;
-            padding: 10px;
-      }
-      .navbar{
-            display: inline-block;
-      }
-      .navbar li{
-            display: inline-block;
-            font-size: 25px;
-      }
-      .navbar li a{
-            color: aliceblue;
-            text-decoration: none;
-            padding: 14px 32px;
-      }
-      .navbar li a:hover{
-            color: hwb(200 94% 5% / 0.695);
-            text-decoration: underline;
-      }
-      .btn{
-            margin: 6px 4px;
-            color: azure;
-            background-color: black;
-            padding: 3px 12px;
-            border: 2px solid gray ;
-            border-radius: 10px;
-            font-size: 20px;
-            cursor: pointer;
-      }
-      .btn:hover{
-            background-color: rgb(67, 66, 66);
-      }
-      .container{
-            box-sizing: border-box;
-            height: 5px 6px;
-            width: 4px 6px;
-           
-            margin: 50px 392px;
-            padding: 31px 140px;
-            border-radius: 10px;
-      }
-      .form-group input{
-            text-align: center;
-            display: block;
-            width: px;
-            padding: 20px;
-            border: 2px solid rgb(36, 4, 67);
-            margin: 16px 129px;
-            border-radius: 10px;
-      }
-      .container h1{
-           text-align: center; 
-      }
-      .container button{
-            display: block;
-            margin: auto;
-            width: 110px;
-      }
-      .name{
-            text-align: left;
-            color: blanchedalmond;
-      }
-</style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Your favourite music is here</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
 <body>
-    <header class="header">
-      <div class="left">
-            <img src="gym/logo-1988478_640.jpg">
-            <div>Jewel's Fitness</div>
-      </div>
-      <div class="middle">
-            <ul class="navbar">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Fitness Calculator</a></li>
-                  <li><a href="#">Contact Us</a></li>
-            </ul>
-      </div>
-      <div class="right">
-            <button class="btn">Call Us Now</button>
-            <button class="btn">Email Us</button>
-      </div>
-    </header>  
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
     <div class="container">
-      <h1>Join The Best Gym In Dehradun Now...</h1>
-      <form action="noaction.php">
-            <div class="form-group">
-                  <input type="text" name="" placeholder="Enter your Name"></input>
-                  <input type="number" name="" placeholder="Enter your Mobile No."></input>
-                  <input type="number" name="" placeholder="Enter your Age"></input>
-                  <input type="text" name="" placeholder="Enter your University Name"></input>
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
             </div>
-            <button class="btn">Submit</button>
-      </form>
+        </div>
+        <div class="songBanner"></div>
     </div>
-    <footer>
-      <div class="name">
-            <h2>Vanshika Sawhney</h2>
-      </div>
-</footer>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
 </body>
 </html>
